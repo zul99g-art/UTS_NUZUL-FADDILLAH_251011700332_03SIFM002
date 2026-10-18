@@ -1,0 +1,32 @@
+body { background: #f4f5f7; }
+
+.hero {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 55%, #3b0764 100%);
+    color: #fff;
+    padding: 5rem 0;
+}
+.hero-welcome { font-family: Georgia, serif; font-style: italic; font-size: 1.6rem; color: #fbbf24; }
+.hero .accent { color: #fbbf24; }
+.hero-identity {
+    background: rgba(255, 255, 255, .08);
+    border: 1px solid rgba(255, 255, 255, .2);
+    border-radius: .75rem;
+    padding: 1rem 1.5rem;
+}
+
+.section-title { font-weight: 700; position: relative; padding-bottom: .75rem; }
+.section-title::after {
+    content: ""; position: absolute; left: 0; bottom: 0;
+    width: 56px; height: 4px; border-radius: 4px; background: #f59e0b;
+}
+
+.instrument-card { border: 0; overflow: hidden; transition: transform .2s, box-shadow .2s; }
+.instrument-card:hover { transform: translateY(-6px); box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15) !important; }
+.instrument-card img { aspect-ratio: 4 / 3; object-fit: cover; }
+
+.page-header { background: #fff; padding: 2.5rem 0; border-bottom: 1px solid #e5e7eb; }
+
+.footer { background: #0f172a; color: #cbd5e1; }
+.footer a { color: #cbd5e1; text-decoration: none; }
+.footer a:hover { color: #fbbf24; }
+.detail-img { object-fit: cover; min-height: 280px; }
